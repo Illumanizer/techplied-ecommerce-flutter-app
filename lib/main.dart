@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:techplied_app/utils/theme.dart';
+import 'package:techplied_app/utils/theme/theme.dart';
 
 void main() {
   runApp(const MyApp());
