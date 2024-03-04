@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:techplied_app/features/authentication/controllers_onboarding/on_boarding_controller.dart';
+import 'package:techplied_app/features/authentication/controllers/Onboarding/on_boarding_controller.dart';
 import 'package:techplied_app/utils/constants/image_strings.dart';
 import 'package:techplied_app/utils/constants/text_strings.dart';
 import 'widget/on_boarding_navigation.dart';

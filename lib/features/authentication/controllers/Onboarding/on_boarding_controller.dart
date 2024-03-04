@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:techplied_app/features/authentication/screens/login/login.dart';
 
 class OnBoardingController extends GetxController {
   static OnBoardingController get instance => Get.find();
@@ -24,7 +25,7 @@ class OnBoardingController extends GetxController {
     if (selectedPageIndex.value < 2) {
       dotNavigationClick(selectedPageIndex.value + 1);
     } else {
-      log("Last Page");
+      Get.offAll(()=>const LoginScreen());
     }
   }
 

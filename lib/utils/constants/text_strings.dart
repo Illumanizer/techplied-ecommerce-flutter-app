@@ -1,3 +1,4 @@
+
 class AppTextStrings{
   AppTextStrings._();
 
@@ -11,4 +12,24 @@ class AppTextStrings{
 
   static const String homeAppBarTitle="Good day for shopping";
   static const String homeAppBarSubTitle="Pranav Singh Sehgal";
+
+  static const String loginTitle="Welcome Back!";
+  static const String loginSubTitle="Please login to your account";
+  static const String signUpTitle="Let's get started";
+  static const String signUpSubTitle="Create an account to get all features";
+
+  static const String forgetPasswordTitle="Forgot Password?";
+  static const String forgetPasswordSubtitle="Dont't worry, we will help you to reset your password";
+  static const String changeYourPasswordTitle="Password reset email sent";
+  static const String changeYourPasswordSubTitle=" We have sent a password reset link to your email";
+  
+  static const String confirmEmail="Verify your email";
+  static const String confirmEmailSubTitle="We have sent a verification link to your email";
+  static const String emailNotRecieved="Didn't receive the email? Check your spam folder or resend it.";
+  static const String resendEmail="Resend Email";
+
+  static const String accountCreatedTitle="Your Account has been successfully created.";
+  static const String accountCreatedSubtitle="Unleash the joy of shopping with us";
+
+
 }

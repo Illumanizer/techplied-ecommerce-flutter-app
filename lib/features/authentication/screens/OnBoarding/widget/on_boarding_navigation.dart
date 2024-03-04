@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:techplied_app/features/authentication/controllers_onboarding/on_boarding_controller.dart';
+import 'package:techplied_app/features/authentication/controllers/Onboarding/on_boarding_controller.dart';
 import 'package:techplied_app/utils/constants/colors.dart';
 import 'package:techplied_app/utils/constants/sizes.dart';
 import 'package:techplied_app/utils/device/device_utils.dart';
