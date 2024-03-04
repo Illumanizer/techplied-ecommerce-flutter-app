@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:techplied_app/features/authentication/screens/login/login.dart';
@@ -30,6 +28,6 @@ class OnBoardingController extends GetxController {
   }
 
   void skipPage() {
-    dotNavigationClick(2);
+    Get.offAll(()=>const LoginScreen());
   }
 }
