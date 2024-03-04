@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:techplied_app/features/authentication/screens_onBoarding/on_boarding.dart';
 import 'package:techplied_app/utils/theme/theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -6,10 +8,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
-      theme : AppTheme.lightTheme,
+      theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
+      home: const OnBoardingScreen(),
     );
   }
 }
