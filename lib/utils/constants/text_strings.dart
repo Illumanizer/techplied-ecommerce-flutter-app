@@ -23,8 +23,8 @@ class AppTextStrings{
   static const String changeYourPasswordTitle="Password reset email sent";
   static const String changeYourPasswordSubTitle=" We have sent a password reset link to your email";
   
-  static const String confirmEmail="Verify your email";
-  static const String confirmEmailSubTitle="We have sent a verification link to your email";
+  static const String confirmEmail="Verify your e-mail";
+  static const String confirmEmailSubTitle="We have sent a verification link to your email. Please verify your email to continue.";
   static const String emailNotRecieved="Didn't receive the email? Check your spam folder or resend it.";
   static const String resendEmail="Resend Email";
 

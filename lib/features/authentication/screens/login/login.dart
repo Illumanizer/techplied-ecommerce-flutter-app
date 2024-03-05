@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:techplied_app/common/styles/spacing_styles.dart';
 import 'package:techplied_app/utils/constants/sizes.dart';
 import 'package:techplied_app/utils/helpers/helper_functions.dart';
-import '../../../../common/widgets/form_divider.dart';
-import '../../../../common/widgets/social_icons.dart';
+import '../../../../common/widgets/login_signup/form_divider.dart';
+import '../../../../common/widgets/login_signup/social_icons.dart';
 import 'widgets/login_form.dart';
 import 'widgets/login_header.dart';
 

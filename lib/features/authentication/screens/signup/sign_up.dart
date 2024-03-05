@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:techplied_app/common/widgets/form_divider.dart';
-import 'package:techplied_app/common/widgets/social_icons.dart';
+import 'package:techplied_app/common/widgets/login_signup/form_divider.dart';
+import 'package:techplied_app/common/widgets/login_signup/social_icons.dart';
 import 'package:techplied_app/features/authentication/screens/signup/widgets/sign_up_form.dart';
 import 'package:techplied_app/utils/constants/sizes.dart';
 import 'package:techplied_app/utils/constants/text_strings.dart';

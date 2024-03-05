@@ -13,4 +13,6 @@ class AppImages {
       'assets/images/on_boarding/on_boarding_2.gif';
   static const String onBoardingImage3 =
       'assets/images/on_boarding/on_boarding_3.gif';
+
+  static const String verifyEmail='assets/images/verify_email/verify_email.gif';
 }
