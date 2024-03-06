@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:techplied_app/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:techplied_app/features/authentication/screens/signup/sign_up.dart';
+import 'package:techplied_app/navigation_menu.dart';
 import 'package:techplied_app/utils/constants/sizes.dart';
 
 class LoginForm extends StatelessWidget {
@@ -66,7 +67,7 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(()=>const NavigationMenu()),
                 child: const Text("Sign In"),
               ),
             ),

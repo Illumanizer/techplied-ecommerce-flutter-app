@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:techplied_app/features/authentication/screens/login/login.dart';
 import 'package:techplied_app/utils/constants/image_strings.dart';
 import 'package:techplied_app/utils/constants/sizes.dart';
 import 'package:techplied_app/utils/constants/text_strings.dart';
