@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/instance_manager.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:techplied_app/utils/constants/sizes.dart';
 import 'package:techplied_app/utils/device/device_utils.dart';

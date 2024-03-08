@@ -15,11 +15,11 @@ class PrimaryHeaderContainer extends StatelessWidget {
       child: Container(
         height: 400,
         color: AppColors.primaryColor,
-        padding:  EdgeInsets.all(0),
+        padding:  const EdgeInsets.all(0),
         child:  Stack(
           children: [
-            Positioned(top: -150, right: -250, child: CircularContainer()),
-            Positioned(top: 100, right: -300, child: CircularContainer()),
+            const Positioned(top: -150, right: -250, child: CircularContainer()),
+            const Positioned(top: 100, right: -300, child: CircularContainer()),
             child,
           ],
         ),

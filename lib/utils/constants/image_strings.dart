@@ -25,4 +25,9 @@ class AppImages {
   static const String shoeIcon='assets/icons/categories/shoe_icon.png';
   static const String sportsIcon='assets/icons/categories/sports_icon.png';
   static const String toyIcon='assets/icons/categories/toy_icon.png';
+
+  static const String banner1='assets/images/banners/ecommerce_baner.jpg';
+  static const String banner2='assets/images/banners/furniture_banner.jpg';
+  static const String banner3='assets/images/banners/shoes_banner.jpg';
+
 }
