@@ -15,4 +15,14 @@ class AppImages {
       'assets/images/on_boarding/on_boarding_3.gif';
 
   static const String verifyEmail='assets/images/verify_email/verify_email.gif';
+
+  static const String animalIcon='assets/icons/categories/animal_icon.png';
+  static const String clothesIcon='assets/icons/categories/clothes_icon.png';
+  static const String cosmeticIcon='assets/icons/categories/cosmetic_icon.png';
+  static const String electronicIcon='assets/icons/categories/electronic_icon.png';
+  static const String furnitureIcon='assets/icons/categories/furniture_icon.png';
+  static const String jwelleryIcon='assets/icons/categories/jwellery_icon.png';
+  static const String shoeIcon='assets/icons/categories/shoe_icon.png';
+  static const String sportsIcon='assets/icons/categories/sports_icon.png';
+  static const String toyIcon='assets/icons/categories/toy_icon.png';
 }
