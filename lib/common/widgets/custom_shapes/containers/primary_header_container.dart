@@ -18,8 +18,8 @@ class PrimaryHeaderContainer extends StatelessWidget {
         padding:  const EdgeInsets.all(0),
         child:  Stack(
           children: [
-            const Positioned(top: -150, right: -250, child: CircularContainer()),
-            const Positioned(top: 100, right: -300, child: CircularContainer()),
+            const Positioned(top: -150, right: -250, child: CircularContainer(height: 400,width: 400,)),
+            const Positioned(top: 100, right: -300, child: CircularContainer(height: 400,width:400,)),
             child,
           ],
         ),

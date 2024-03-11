@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/state_manager.dart';
 import 'package:techplied_app/common/widgets/custom_shapes/containers/circular_container.dart';
@@ -7,6 +8,7 @@ import 'package:techplied_app/common/widgets/images/rounded_image_container.dart
 import 'package:techplied_app/features/shop/controller/home_controller.dart';
 import 'package:techplied_app/utils/constants/colors.dart';
 import 'package:techplied_app/utils/constants/sizes.dart';
+import 'package:techplied_app/utils/helpers/helper_functions.dart';
 
 class PromoCarouselSlider extends StatelessWidget {
   PromoCarouselSlider({
@@ -18,6 +20,7 @@ class PromoCarouselSlider extends StatelessWidget {
   final List<String> banners;
   @override
   Widget build(BuildContext context) {
+    final isDark=AppHelperFunctions.isDarkMode(context);
     return Column(
       children: [
         CarouselSlider(
@@ -57,7 +60,9 @@ class PromoCarouselSlider extends StatelessWidget {
                   height: 4,
                   margin: const EdgeInsets.only(right: AppSizes.sm),
                   color: (controller.carouselIndex.value == i - 1)
-                      ? AppColors.primaryColor
+                      ? isDark
+                          ? AppColors.white
+                          : AppColors.primaryColor
                       : AppColors.grey,
                 ),
             ],

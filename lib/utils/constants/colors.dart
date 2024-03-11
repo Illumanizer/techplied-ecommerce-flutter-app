@@ -4,7 +4,7 @@ class AppColors{
   AppColors._();
 
   static const Color primaryColor = Color.fromARGB(255, 62, 76, 204);
-  static const Color secondaryColor = Color.fromARGB(255, 197, 231, 71);
+  static const Color secondaryColor = Color.fromARGB(255, 233, 242, 65);
   static const Color accentColor = Color.fromARGB(255, 86, 190, 231);
 
   static const Color textPrimaryColor = Color.fromARGB(251, 27, 27, 27);

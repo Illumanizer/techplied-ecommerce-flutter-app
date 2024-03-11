@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:techplied_app/common/widgets/custom_shapes/containers/app_bar_search.dart';
 import 'package:techplied_app/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:techplied_app/common/widgets/layouts/grid_layout.dart';
+import 'package:techplied_app/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:techplied_app/common/widgets/text/section_heading.dart';
 import 'package:techplied_app/features/shop/screens/home/widgets/home_app_bar.dart';
 import 'package:techplied_app/features/shop/screens/home/widgets/home_categories.dart';
@@ -57,6 +59,11 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: AppSizes.spaceBetweenSections,
+            ),
+
+            GridLayout(itemCount: 4, itemBuilder: (_,index)=>ProductCardVertical()),
           ],
         ),
       ),

@@ -30,4 +30,6 @@ class AppImages {
   static const String banner2='assets/images/banners/furniture_banner.jpg';
   static const String banner3='assets/images/banners/shoes_banner.jpg';
 
+  static const String product1='assets/images/products/guitar_image.jpeg';
+
 }
