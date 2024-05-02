@@ -29,7 +29,7 @@ class CircularContainer extends StatelessWidget {
       height: height,
       padding: padding,
       margin: margin,
-      decoration: BoxDecoration(
+      decoration: BoxDecoration(  
         borderRadius: BorderRadius.circular(radius),
         color: color!.withOpacity(0.3),
         border: showBorder ? Border.all(color: borderColor!) : null,

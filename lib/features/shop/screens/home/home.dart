@@ -51,19 +51,36 @@ class HomeScreen extends StatelessWidget {
             //body
             Padding(
               padding: const EdgeInsets.all(AppSizes.defaultSpace),
-              child: PromoCarouselSlider(
-                banners: const [
-                  AppImages.banner1,
-                  AppImages.banner2,
-                  AppImages.banner3
+              child: Column(
+                children: [
+                  //promo slider ̰
+                  PromoCarouselSlider(
+                    banners: const [
+                      AppImages.banner1,
+                      AppImages.banner2,
+                      AppImages.banner3
+                    ],
+                  ),
+                  SizedBox(
+                    height: AppSizes.spaceBetweenSections,
+                  ),
+
+                  //section heading
+                  SectionHeading(
+                    title: "Popular Products",
+                    onButtonPressed: (){},
+                  ),
+                  SizedBox(
+                    height: AppSizes.spaceBetweenItems/2,
+                  ),
+
+                  //popular products
+                  GridLayout(
+                      itemCount: 4,
+                      itemBuilder: (_, index) => ProductCardVertical()),
                 ],
               ),
             ),
-            SizedBox(
-              height: AppSizes.spaceBetweenSections,
-            ),
-
-            GridLayout(itemCount: 4, itemBuilder: (_,index)=>ProductCardVertical()),
           ],
         ),
       ),

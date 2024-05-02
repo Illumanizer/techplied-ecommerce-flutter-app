@@ -3,6 +3,7 @@ import 'package:get/instance_manager.dart';
 import 'package:get/state_manager.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:techplied_app/features/shop/screens/home/home.dart';
+import 'package:techplied_app/features/shop/screens/store.dart';
 import 'package:techplied_app/utils/constants/colors.dart';
 import 'package:techplied_app/utils/helpers/helper_functions.dart';
 
@@ -43,9 +44,7 @@ class NavigationController extends GetxController {
 
   final screens = [
     const HomeScreen(),
-    Container(
-      color: Colors.purple,
-    ),
+    const Store(),
     Container(
       color: Colors.orange,
     ),
